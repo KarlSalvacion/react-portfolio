@@ -1,0 +1,49 @@
+.navbar {
+  position: sticky !important;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  padding-left: 15px !important;
+  margin-left: -100px !important;
+  background-color: #232324 !important;
+  z-index: 1000; 
+}
+
+
+
+.navbar-brand{
+
+  color: rgb(215, 177, 38) !important; 
+  font-weight: 800;
+  margin-left: 80px;
+  margin-right: 370px  !important ;
+  font-family: "DM Serif Text";
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: rgb(39, 37, 37) !important; 
+  background-color: rgb(203, 203, 209);
+  border-radius: 25px;
+  padding: 7px 20px;
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.nav-link {
+  float: right;
+  color: #b9b7b7 !important;
+  font-weight: 400 !important ;
+  transition: all 0.3s ease 0s !important;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #ffffff !important; 
+  font-weight: 700 !important;
+  background-color: rgb(74, 74, 79);
+  border-radius: 25px;
+  font-weight: bold;
+
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
