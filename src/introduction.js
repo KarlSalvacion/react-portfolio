@@ -5,8 +5,8 @@ import jamesreidpic from "../src/images/JAMESREID.JPG";
 
 const Introduction = () => {
   const [image, setImage] = useState(karlpic);
-  const [flip, setFlip] = useState(false); // new state to track flip state
-
+  const [flip, setFlip] = useState(false); 
+  
   const handleClick = () => {
     setFlip(true);
     setTimeout(() => {

@@ -52,20 +52,19 @@ p.ProjectDesc {
 }
 
 #Claude:hover {
-    box-shadow: 0 0 25px rgba(255, 165, 0, 0.5); /* orange */
+    box-shadow: 0 0 25px rgba(255, 165, 0, 0.5); 
 }
-  
+
 #Quillbot:hover {
-    box-shadow: 0 0 25px rgba(14, 144, 14, 0.875); /* green */
+    box-shadow: 0 0 25px rgba(14, 144, 14, 0.875); 
 }
   
 #Tiktok:hover {
-    box-shadow: 0 0 25px rgba(155, 10, 155, 0.821); /* purple */
+    box-shadow: 0 0 25px rgba(155, 10, 155, 0.821); 
 }
 
 .card-body {
     background-color: #232324;
-
 }
 
 .modal {
@@ -139,5 +138,4 @@ p.ProjectDesc {
     -webkit-box-orient: vertical;
     color: #b9b7b7;
     transition: max-height 0.5s ease;
-
 }
